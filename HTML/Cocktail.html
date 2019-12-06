@@ -1,0 +1,970 @@
+<HTML>
+<HEAD>
+<TITLE>Cocktail.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Cocktail.vi"></A><H2>Cocktail.vi</H2>
+<P></P>
+<P><IMG SRC="Cocktailc.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktailp.png" ALT="Cocktail.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Purchase</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B> Caipirinha</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Water-Juice </B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Water</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Coke</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Maintainance</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Stop</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Refill</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B> Whisky-Sour</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B> Whisky-Cola</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>5 € </B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>2 € </B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>1 € </B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>0.5 € </B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Power</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="inclst.png" ALT="inclst"></P>
+</TD>
+<TD>
+<B>Ingredients Panel</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu16.png" ALT="iu16"></P>
+</TD>
+<TD>
+<B>RUM</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu16.png" ALT="iu16"></P>
+</TD>
+<TD>
+<B>WHISKY</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu16.png" ALT="iu16"></P>
+</TD>
+<TD>
+<B>LIME</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu16.png" ALT="iu16"></P>
+</TD>
+<TD>
+<B>COKE </B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu16.png" ALT="iu16"></P>
+</TD>
+<TD>
+<B> WATER</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu16.png" ALT="iu16"></P>
+</TD>
+<TD>
+<B> SUGAR</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu16.png" ALT="iu16"></P>
+</TD>
+<TD>
+<B> JUICE</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>STATUS</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>PRICE </B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu16.png" ALT="iu16"></P>
+</TD>
+<TD>
+<B>PROGRESS</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>power</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>CREDIT</B> </TD>
+</TR>
+</Table>
+<P><IMG SRC="Cocktaild.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild1.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild2.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild3.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild4.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild5.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild6.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild7.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild8.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild9.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild10.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild11.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild12.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild13.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild14.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild15.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild16.png" ALT="Cocktail.vi"></P>
+<P><IMG SRC="Cocktaild17.png" ALT="Cocktail.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="initialisei.png" ALT="initialise.vi"></P>
+</TD>
+<TD>
+<B><P>initialise.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\initialise.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Quantitychecki.png" ALT="Quantitycheck.vi"></P>
+</TD>
+<TD>
+<B><P>Quantitycheck.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\Quantitycheck.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Close_Config_Datai.png" ALT="NI_LVConfig.lvlib:Close Config Data.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Close Config Data.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Close Config Data.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="pricei.png" ALT="price.vi"></P>
+</TD>
+<TD>
+<B><P>price.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\price.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Write_Keyi.png" ALT="NI_LVConfig.lvlib:Write Key.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Write Key.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Write Key.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="csvdecodei.png" ALT="csvdecode.vi"></P>
+</TD>
+<TD>
+<B><P>csvdecode.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\csvdecode.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Write_Key_(Double)i.png" ALT="NI_LVConfig.lvlib:Write Key (Double).vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Write Key (Double).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Write Key (Double).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Drinkindicatori.png" ALT="Drinkindicator.vi"></P>
+</TD>
+<TD>
+<B><P>Drinkindicator.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\Drinkindicator.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Generate__pathi.png" ALT="Generate_path.vi"></P>
+</TD>
+<TD>
+<B><P>Generate_path.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\Generate_path.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Open_Config_Datai.png" ALT="NI_LVConfig.lvlib:Open Config Data.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Open Config Data.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Open Config Data.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Read_Key_(Double)i.png" ALT="NI_LVConfig.lvlib:Read Key (Double).vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Read Key (Double).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Read Key (Double).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="pathGlobalgbli.png" ALT="pathGlobal.vi"></P>
+</TD>
+<TD>
+<B><P>pathGlobal.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\pathGlobal.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Read_Keyi.png" ALT="NI_LVConfig.lvlib:Read Key.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Read Key.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Read Key.vi</P>
+</TD>
+</TR>
+</Table>
+<P>&quot;Cocktail.vi History&quot;</P>
+<P>Current Revision:   4</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="Cocktailh.png" ALT="Cocktail.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<HR>
+<A NAME="csvdecode.vi"></A><H2>csvdecode.vi</H2>
+<P></P>
+<P><IMG SRC="csvdecodec.png" ALT="csvdecode.vi"></P>
+<P><IMG SRC="csvdecodep.png" ALT="csvdecode.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>file path (dialog if empty)</B> <P><B>file path</B> is the path name of the file. If <B>file path</B> is empty (default) or is &lt;Not A Path&gt;, the VI displays a dialog box from which you can select a file. Error 43 occurs if you cancel the dialog box.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dstr.png" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>Message</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>String</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dstr.png" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>Name</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>String</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1ddbl.png" ALT="i1ddbl"></P>
+</TD>
+<TD>
+<B>Quantity</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B></B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1ddbl.png" ALT="i1ddbl"></P>
+</TD>
+<TD>
+<B>Time</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B></B> </TD>
+</TR>
+</Table>
+</UL>
+<P><IMG SRC="csvdecoded.png" ALT="csvdecode.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Read_Delimited_Spreadsheet_(string)i.png" ALT="Read Delimited Spreadsheet (string).vi"></P>
+</TD>
+<TD>
+<B><P>Read Delimited Spreadsheet (string).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\file.llb\Read Delimited Spreadsheet (string).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Read_Delimited_Spreadsheeti.png" ALT="Read Delimited Spreadsheet.vi"></P>
+</TD>
+<TD>
+<B><P>Read Delimited Spreadsheet.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\file.llb\Read Delimited Spreadsheet.vi</P>
+</TD>
+</TR>
+</Table>
+<P>&quot;csvdecode.vi History&quot;</P>
+<P>Current Revision:   12</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="csvdecodeh.png" ALT="csvdecode.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<HR>
+<A NAME="Drinkindicator.vi"></A><H2>Drinkindicator.vi</H2>
+<P></P>
+<P><IMG SRC="Drinkindicatorc.png" ALT="Drinkindicator.vi"></P>
+<P><IMG SRC="Drinkindicatorp.png" ALT="Drinkindicator.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>coke</B> <P><B>value</B> is the value of the key.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>wisky</B> <P><B>value</B> is the value of the key.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>sugar</B> <P><B>value</B> is the value of the key.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>lime</B> <P><B>value</B> is the value of the key.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>rum</B> <P><B>value</B> is the value of the key.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>water</B> <P><B>value</B> is the value of the key.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>juice</B> <P><B>value</B> is the value of the key.</P>
+</TD>
+</TR>
+</Table>
+<P><IMG SRC="Drinkindicatord.png" ALT="Drinkindicator.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Close_Config_Datai.png" ALT="NI_LVConfig.lvlib:Close Config Data.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Close Config Data.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Close Config Data.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Generate__pathi.png" ALT="Generate_path.vi"></P>
+</TD>
+<TD>
+<B><P>Generate_path.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\Generate_path.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Open_Config_Datai.png" ALT="NI_LVConfig.lvlib:Open Config Data.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Open Config Data.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Open Config Data.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Read_Key_(U32)i.png" ALT="NI_LVConfig.lvlib:Read Key (U32).vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Read Key (U32).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Read Key (U32).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Read_Keyi.png" ALT="NI_LVConfig.lvlib:Read Key.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Read Key.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Read Key.vi</P>
+</TD>
+</TR>
+</Table>
+<P>&quot;Drinkindicator.vi History&quot;</P>
+<P>Current Revision:   7</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="Drinkindicatorh.png" ALT="Drinkindicator.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<HR>
+<A NAME="Generate_path.vi"></A><H2>Generate_path.vi</H2>
+<P>Realtive path</P>
+<P><IMG SRC="Generate__pathc.png" ALT="Generate_path.vi"></P>
+<P><IMG SRC="Generate__pathp.png" ALT="Generate_path.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>name or relative path</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ipath.png" ALT="ipath"></P>
+</TD>
+<TD>
+<B>MyFile</B> </TD>
+</TR>
+</Table>
+<P><IMG SRC="Generate__pathd.png" ALT="Generate_path.vi"></P>
+<P>&quot;Generate_path.vi History&quot;</P>
+<P>Current Revision:   5</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="Generate__pathh.png" ALT="Generate_path.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<HR>
+<A NAME="initialise.vi"></A><H2>initialise.vi</H2>
+<P></P>
+<P><IMG SRC="initialisec.png" ALT="initialise.vi"></P>
+<P><IMG SRC="initialised.png" ALT="initialise.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Close_Config_Datai.png" ALT="NI_LVConfig.lvlib:Close Config Data.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Close Config Data.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Close Config Data.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Write_Keyi.png" ALT="NI_LVConfig.lvlib:Write Key.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Write Key.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Write Key.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Generate__pathi.png" ALT="Generate_path.vi"></P>
+</TD>
+<TD>
+<B><P>Generate_path.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\Generate_path.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Write_Key_(I32)i.png" ALT="NI_LVConfig.lvlib:Write Key (I32).vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Write Key (I32).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Write Key (I32).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Open_Config_Datai.png" ALT="NI_LVConfig.lvlib:Open Config Data.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Open Config Data.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Open Config Data.vi</P>
+</TD>
+</TR>
+</Table>
+<P>&quot;initialise.vi History&quot;</P>
+<P>Current Revision:   7</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="initialiseh.png" ALT="initialise.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<HR>
+<A NAME="path.vi"></A><H2>path.vi</H2>
+<P></P>
+<P><IMG SRC="pathgblc.png" ALT="path.vi"></P>
+<P><IMG SRC="pathgblp.png" ALT="path.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>Path</B> </TD>
+</TR>
+</Table>
+<P>&quot;path.vi History&quot;</P>
+<P>Current Revision:   1</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="pathgblh.png" ALT="path.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<HR>
+<A NAME="pathGlobal.vi"></A><H2>pathGlobal.vi</H2>
+<P></P>
+<P><IMG SRC="pathGlobalgblc.png" ALT="pathGlobal.vi"></P>
+<P><IMG SRC="pathGlobalgblp.png" ALT="pathGlobal.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>Path</B> </TD>
+</TR>
+</Table>
+<P>&quot;pathGlobal.vi History&quot;</P>
+<P>Current Revision:   1</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="pathGlobalgblh.png" ALT="pathGlobal.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<HR>
+<A NAME="price.vi"></A><H2>price.vi</H2>
+<P></P>
+<P><IMG SRC="pricec.png" ALT="price.vi"></P>
+<P><IMG SRC="pricep.png" ALT="price.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>1</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>string</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>Path</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>RESULT</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>match substring</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>result string</B> </TD>
+</TR>
+</Table>
+<P><IMG SRC="priced.png" ALT="price.vi"></P>
+<P>&quot;price.vi History&quot;</P>
+<P>Current Revision:   9</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="priceh.png" ALT="price.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<HR>
+<A NAME="Quantitycheck.vi"></A><H2>Quantitycheck.vi</H2>
+<P></P>
+<P><IMG SRC="Quantitycheckc.png" ALT="Quantitycheck.vi"></P>
+<P><IMG SRC="Quantitycheckp.png" ALT="Quantitycheck.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>key</B> <P><B>key</B> is the name of the key to write.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>NUM INPUT</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iu32.png" ALT="iu32"></P>
+</TD>
+<TD>
+<B>value</B> <P><B>value</B> is the value of the key.</P>
+</TD>
+</TR>
+</Table>
+<P><IMG SRC="Quantitycheckd.png" ALT="Quantitycheck.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Close_Config_Datai.png" ALT="NI_LVConfig.lvlib:Close Config Data.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Close Config Data.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Close Config Data.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Write_Keyi.png" ALT="NI_LVConfig.lvlib:Write Key.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Write Key.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Write Key.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Write_Key_(Double)i.png" ALT="NI_LVConfig.lvlib:Write Key (Double).vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Write Key (Double).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Write Key (Double).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Generate__pathi.png" ALT="Generate_path.vi"></P>
+</TD>
+<TD>
+<B><P>Generate_path.vi</P>
+</B><P>C:\Users\Admin\Desktop\LABVIEW software\Generate_path.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Open_Config_Datai.png" ALT="NI_LVConfig.lvlib:Open Config Data.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Open Config Data.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Open Config Data.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Read_Key_(Double)i.png" ALT="NI_LVConfig.lvlib:Read Key (Double).vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Read Key (Double).vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Read Key (Double).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="NI__LVConfig_lvlib_Read_Keyi.png" ALT="NI_LVConfig.lvlib:Read Key.vi"></P>
+</TD>
+<TD>
+<B><P>NI_LVConfig.lvlib:Read Key.vi</P>
+</B><P>C:\Program Files\National Instruments\LabVIEW 2018\vi.lib\Utility\config.llb\Read Key.vi</P>
+</TD>
+</TR>
+</Table>
+<P>&quot;Quantitycheck.vi History&quot;</P>
+<P>Current Revision:   10</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="Quantitycheckh.png" ALT="Quantitycheck.vi"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+</BODY>
+</HTML>
